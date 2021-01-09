@@ -140,6 +140,22 @@
       },
       "url": "https://packages.unity.com"
     },
+    "xyz.candycoded.arfoundation-components": {
+      "version": "https://github.com/CandyCoded/ARFoundation-Components.git#v4.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "xyz.candycoded.candycoded": "https://github.com/CandyCoded/CandyCoded.git#v4.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.arfoundation": "4.1.1"
+      },
+      "hash": "27c815b05b4a4dbe48ab76e8264d5442cdfef26f"
+    },
     "xyz.candycoded.candycoded": {
       "version": "https://github.com/CandyCoded/CandyCoded.git#v4.0.0",
       "depth": 0,
