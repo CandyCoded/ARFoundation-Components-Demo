@@ -140,6 +140,18 @@
       },
       "url": "https://packages.unity.com"
     },
+    "xyz.candycoded.candycoded": {
+      "version": "https://github.com/CandyCoded/CandyCoded.git#v4.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.physics2d": "1.0.0",
+        "com.unity.modules.screencapture": "1.0.0"
+      },
+      "hash": "191c9dc4b49403fea238f4dc0fa451a4cd5b12ae"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
