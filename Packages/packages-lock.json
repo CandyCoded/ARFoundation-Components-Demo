@@ -15,7 +15,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
-      "version": "1.0.5",
+      "version": "1.0.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -37,6 +37,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.inputsystem": {
+      "version": "1.0.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.subsystemregistration": {
       "version": "1.1.0",
       "depth": 2,
@@ -47,11 +54,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.19",
+      "version": "1.1.22",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.ext.nunit": "1.0.5",
+        "com.unity.ext.nunit": "1.0.6",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
@@ -67,10 +74,15 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.2.17",
+      "version": "1.2.18",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.director": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
@@ -94,12 +106,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arfoundation": {
-      "version": "4.1.1",
-      "depth": 0,
+      "version": "4.1.5",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.arsubsystems": "4.1.1",
-        "com.unity.xr.management": "3.2.16"
+        "com.unity.xr.arsubsystems": "4.1.5",
+        "com.unity.xr.management": "4.0.1"
       },
       "url": "https://packages.unity.com"
     },
@@ -115,8 +127,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arsubsystems": {
-      "version": "4.1.1",
-      "depth": 1,
+      "version": "4.1.5",
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.subsystemregistration": "1.1.0"
@@ -124,49 +136,58 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.6",
+      "version": "2.1.7",
       "depth": 2,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "3.2.16",
-      "depth": 1,
+      "version": "4.0.1",
+      "depth": 2,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.legacyinputhelpers": "2.1.2",
+        "com.unity.modules.subsystems": "1.0.0",
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.7",
         "com.unity.subsystemregistration": "1.0.6"
       },
       "url": "https://packages.unity.com"
     },
     "xyz.candycoded.arfoundation-components": {
-      "version": "https://github.com/CandyCoded/ARFoundation-Components.git#v4.0.0",
+      "version": "https://github.com/CandyCoded/ARFoundation-Components.git#v4.0.1",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "xyz.candycoded.candycoded": "https://github.com/CandyCoded/CandyCoded.git#v4.0.0",
+        "xyz.candycoded.candycoded": "https://github.com/CandyCoded/CandyCoded.git#v4.3.2",
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0",
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.xr": "1.0.0",
         "com.unity.ugui": "1.0.0",
-        "com.unity.xr.arfoundation": "4.1.1"
+        "com.unity.xr.arfoundation": "4.1.5"
       },
-      "hash": "27c815b05b4a4dbe48ab76e8264d5442cdfef26f"
+      "hash": "4cb380c3ea4437bf7c1e5374b528570336c359ab"
     },
     "xyz.candycoded.candycoded": {
-      "version": "https://github.com/CandyCoded/CandyCoded.git#v4.0.0",
+      "version": "https://github.com/CandyCoded/CandyCoded.git#v4.3.2",
       "depth": 0,
       "source": "git",
       "dependencies": {
+        "com.unity.inputsystem": "1.0.2",
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.physics2d": "1.0.0",
-        "com.unity.modules.screencapture": "1.0.0"
+        "com.unity.modules.screencapture": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.ugui": "1.0.0"
       },
-      "hash": "191c9dc4b49403fea238f4dc0fa451a4cd5b12ae"
+      "hash": "5ba919edde84683f190a76cf44897d393caa9821"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
